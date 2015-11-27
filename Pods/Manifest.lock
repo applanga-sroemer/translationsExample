@@ -1,0 +1,10 @@
+PODS:
+  - Applanga (1.0.34)
+
+DEPENDENCIES:
+  - Applanga
+
+SPEC CHECKSUMS:
+  Applanga: 8ee44fd9486707f53340d86f3202669f604b9e76
+
+COCOAPODS: 0.38.2

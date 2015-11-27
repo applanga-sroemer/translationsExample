@@ -35,7 +35,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         }
     }
     
-    let fruits = ["Apple",
+    let fruits = [
+        "Apple",
         "Apricot",
         "Avocado",
         "Banana",
@@ -59,22 +60,25 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         "Strawberry",
         "Tomato",
         "Walnut",
-        "Watermelon"]
+        "Watermelon"
+    ]
 
-    let colors = ["black",
-        "darkGray",
-        "lightGray",
-        "white",
-        "gray",
-        "red",
-        "green",
-        "blue",
-        "cyan",
-        "yellow",
-        "magenta",
-        "orange",
-        "purple",
-        "brown"]
+    let colors = [
+        NSLocalizedString("black",comment: "black color comment"),
+        NSLocalizedString("darkGray",comment: ""),
+        NSLocalizedString("lightGray",comment: ""),
+        NSLocalizedString("white",comment: ""),
+        NSLocalizedString("gray",comment: ""),
+        NSLocalizedString("red",comment: ""),
+        NSLocalizedString("green",comment: ""),
+        NSLocalizedString("blue",comment: ""),
+        NSLocalizedString("cyan",comment: ""),
+        NSLocalizedString("yellow",comment: ""),
+        NSLocalizedString("magenta",comment: ""),
+        NSLocalizedString("orange",comment: ""),
+        NSLocalizedString("purple",comment: ""),
+        NSLocalizedString("brown", comment: "")
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,7 +101,12 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! BasicCell
         
-        cell.titleLabel.text = self.selectedSource![indexPath.row]
+        if collectionSourceType == .Fruits {
+            cell.titleLabel.text = NSLocalizedString(self.selectedSource![indexPath.row], comment: self.selectedSource![indexPath.row])
+        } else {
+            cell.titleLabel.text = self.selectedSource![indexPath.row]
+            
+        }
         
         return cell
     }
