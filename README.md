@@ -1,24 +1,22 @@
 
-The goal of this project is to present the different solutions to translate an iOS app, like the (TodoMVC)[https://github.com/tastejs/todomvc] app of translations.
+The goal of this project is to present the different solutions to translate an iOS app, like the [TodoMVC](https://github.com/tastejs/todomvc) app of translations.
 
 The `master` branch contains a non-translated app, other branches present each a backend service 
 
-# No backend
+# Tested
 
-# Babelish
+## Applanga
 
-Command-line tool that uses a CSV file as a backend (eventually hosted on Google Docs) to generate .strings files.
+See branch `applanga` and read more [here](https://github.com/netbe/translationsExample/blob/applanga/HowTo.md)
 
-# Transifex
+Website: www.applanga.com
 
-Service that manages resources, supports a lot of formats in addition of Apple's formats (.strings / ,plist).
+# Pending
 
-# Applanga
-
-https://applanga.com
-
-# El Loco
-
-# Usejargon
-
-# OHT Mobile
+* El Loco
+* Usejargon
+* OHT Mobile
+* No backend
+* Babelish
+* Transifex
+* other sevices... Pull requests are welcome!
