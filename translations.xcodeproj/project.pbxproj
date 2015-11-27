@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0109ABCF1C0868DD0035DBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABCE1C0868DD0035DBF5 /* AppDelegate.swift */; };
-		0109ABD11C0868DD0035DBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABD01C0868DD0035DBF5 /* ViewController.swift */; };
 		0109ABD41C0868DD0035DBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0109ABD21C0868DD0035DBF5 /* Main.storyboard */; };
 		0109ABD61C0868DD0035DBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0109ABD51C0868DD0035DBF5 /* Assets.xcassets */; };
 		0109ABD91C0868DD0035DBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0109ABD71C0868DD0035DBF5 /* LaunchScreen.storyboard */; };
+		0109ABE31C086AF10035DBF5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */; };
+		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
+		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0109ABCB1C0868DD0035DBF5 /* translations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0109ABCE1C0868DD0035DBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0109ABD01C0868DD0035DBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0109ABD31C0868DD0035DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0109ABD51C0868DD0035DBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0109ABD81C0868DD0035DBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0109ABDA1C0868DD0035DBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
+		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0109ABCE1C0868DD0035DBF5 /* AppDelegate.swift */,
-				0109ABD01C0868DD0035DBF5 /* ViewController.swift */,
 				0109ABD21C0868DD0035DBF5 /* Main.storyboard */,
 				0109ABD51C0868DD0035DBF5 /* Assets.xcassets */,
 				0109ABD71C0868DD0035DBF5 /* LaunchScreen.storyboard */,
 				0109ABDA1C0868DD0035DBF5 /* Info.plist */,
+				0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */,
+				0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */,
+				0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */,
 			);
 			path = translations;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0109ABD11C0868DD0035DBF5 /* ViewController.swift in Sources */,
+				0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */,
+				0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */,
+				0109ABE31C086AF10035DBF5 /* CollectionViewController.swift in Sources */,
 				0109ABCF1C0868DD0035DBF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +292,7 @@
 				0109ABDF1C0868DD0035DBF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
