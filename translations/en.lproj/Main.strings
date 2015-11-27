@@ -1,0 +1,18 @@
+/* Class = "UILabel"; text = "Show Fruits"; ObjectID = "7LR-1L-UmO"; */
+"7LR-1L-UmO.text" = "Show Fruits";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NEv-5K-iX9"; */
+"NEv-5K-iX9.text" = "Label";
+
+/* Class = "UILabel"; text = "Show Colors"; ObjectID = "OBw-Zb-uPV"; */
+"OBw-Zb-uPV.text" = "Show Colors";
+
+/* Class = "UITableViewController"; title = "Themes"; ObjectID = "cMf-z2-Hi6"; */
+"cMf-z2-Hi6.title" = "Themes";
+
+/* Class = "UINavigationItem"; prompt = "Make your choice"; ObjectID = "iUA-CV-fzN"; */
+"iUA-CV-fzN.prompt" = "Make your choice";
+
+/* Class = "UINavigationItem"; title = "Themes"; ObjectID = "iUA-CV-fzN"; */
+"iUA-CV-fzN.title" = "Themes";
+

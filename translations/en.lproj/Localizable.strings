@@ -1,24 +1,45 @@
-/* 
-  Localizable.strings
-  translations
-
-  Created by François Benaiteau on 27/11/15.
-  Copyright © 2015 Sinnerschrader Mobile. All rights reserved.
-*/
-"black" = "black";
-"darkGray" = "this is darkGray";
-"lightGray" = "lightGray";
-"white" = "white";
-"gray" = "gray";
-"red" = "red";
-"green" = "green";
-/* this is normal comment */
-"blue" = "blue";
-"cyan" = "cyan";
-"yellow" = "yellow";
-"magenta" = "magenta";
-"orange" = "orange";
-"purple" = "purple";
-"brown" = "brown";
-/* this is a new color*/
+/* No comment provided by engineer. */
 "acidGreen" = "Acid Green 2";
+
+/* black color comment */
+"black" = "black";
+
+/* No comment provided by engineer. */
+"blue" = "blue";
+
+/* No comment provided by engineer. */
+"brown" = "brown";
+
+/* No comment provided by engineer. */
+"cyan" = "cyan";
+
+/* No comment provided by engineer. */
+"darkGray" = "this is darkGray";
+
+/* No comment provided by engineer. */
+"gray" = "gray";
+
+/* No comment provided by engineer. */
+"green" = "green";
+
+/* No comment provided by engineer. */
+"lightGray" = "lightGray";
+
+/* No comment provided by engineer. */
+"magenta" = "magenta";
+
+/* No comment provided by engineer. */
+"orange" = "orange";
+
+/* No comment provided by engineer. */
+"purple" = "purple";
+
+/* No comment provided by engineer. */
+"red" = "red";
+
+/* No comment provided by engineer. */
+"white" = "white";
+
+/* No comment provided by engineer. */
+"yellow" = "yellow";
+
