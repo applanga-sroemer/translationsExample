@@ -15,6 +15,7 @@
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
 		0176C68E1C089CEC00BDFBB2 /* applanga_settings.applanga in Resources */ = {isa = PBXBuildFile; fileRef = 0176C68D1C089CA500BDFBB2 /* applanga_settings.applanga */; };
+		0176C6931C08AE1000BDFBB2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0176C6951C08AE1000BDFBB2 /* Localizable.strings */; };
 		E4F5C1D271758B980564AA63 /* libPods-translations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7722B520335E518C90861996 /* libPods-translations.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
 		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 		0176C68D1C089CA500BDFBB2 /* applanga_settings.applanga */ = {isa = PBXFileReference; lastKnownFileType = file; path = applanga_settings.applanga; sourceTree = "<group>"; };
+		0176C6971C08AF6200BDFBB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		740B27DC701439A9FDFBA0E8 /* Pods-translations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-translations.release.xcconfig"; path = "Pods/Target Support Files/Pods-translations/Pods-translations.release.xcconfig"; sourceTree = "<group>"; };
 		7722B520335E518C90861996 /* libPods-translations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-translations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46DBFB33E0F8F5AB0F71861 /* Pods-translations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-translations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-translations/Pods-translations.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */,
 				0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */,
 				0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */,
+				0176C6951C08AE1000BDFBB2 /* Localizable.strings */,
 			);
 			path = translations;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0176C6931C08AE1000BDFBB2 /* Localizable.strings in Resources */,
 				0176C68E1C089CEC00BDFBB2 /* applanga_settings.applanga in Resources */,
 				0109ABD91C0868DD0035DBF5 /* LaunchScreen.storyboard in Resources */,
 				0109ABD61C0868DD0035DBF5 /* Assets.xcassets in Resources */,
@@ -228,6 +232,14 @@
 				0109ABD81C0868DD0035DBF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0176C6951C08AE1000BDFBB2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0176C6971C08AF6200BDFBB2 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

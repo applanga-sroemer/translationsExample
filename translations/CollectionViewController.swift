@@ -77,7 +77,8 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         NSLocalizedString("magenta",comment: ""),
         NSLocalizedString("orange",comment: ""),
         NSLocalizedString("purple",comment: ""),
-        NSLocalizedString("brown", comment: "")
+        NSLocalizedString("brown", comment: ""),
+        NSLocalizedString("acidGreen", comment: "")
     ]
 
     override func viewDidLoad() {

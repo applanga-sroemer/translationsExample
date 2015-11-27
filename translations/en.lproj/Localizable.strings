@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  translations
+
+  Created by François Benaiteau on 27/11/15.
+  Copyright © 2015 Sinnerschrader Mobile. All rights reserved.
+*/
+"black" = "black";
+"darkGray" = "this is darkGray";
+"lightGray" = "lightGray";
+"white" = "white";
+"gray" = "gray";
+"red" = "red";
+"green" = "green";
+/* this is normal comment */
+"blue" = "blue";
+"cyan" = "cyan";
+"yellow" = "yellow";
+"magenta" = "magenta";
+"orange" = "orange";
+"purple" = "purple";
+"brown" = "brown";
+/* this is a new color*/
+"acidGreen" = "Acid Green";
