@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Snapshot SourceLanguage="en">
+  <File RelativePathToSource="en.lproj/Localizable.strings">
+    <Strings>
+      <String Key="Fruits" SourceHash="a36ef47851e2b0fce36c1148d152749a" />
+      <String Key="Colors" SourceHash="5d50889672f6f860d14f502de3de1957" />
+      <String Key="Apple" SourceHash="9f6290f4436e5a2351f12e03b6433c3c" />
+      <String Key="Apricot" SourceHash="f055923cf23e41b26df5fe1b28c40d1c" />
+      <String Key="Avocado" SourceHash="42ae2d145ddd8555e9c2a7a1da9c8d0f" />
+      <String Key="Banana" SourceHash="e6f9c347672daae5a2557ae118f44a1e" />
+      <String Key="Berry" SourceHash="d9d40472f2eed7b7d72bac108c1ef57b" />
+      <String Key="Blueberry" SourceHash="45015de04257b7419a7d8b5ddf7e86ae" />
+      <String Key="Blackberry" SourceHash="30a48b302eec7672574a69719c5309f8" />
+      <String Key="Cranberry" SourceHash="9830f3eee927250862809995bed4ac9d" />
+      <String Key="Grapefruit" SourceHash="69ce6981943f22749bad0e7cd15327a6" />
+      <String Key="Grape" SourceHash="f9edfa286f905de03053f83eb4575a59" />
+      <String Key="Kiwi" SourceHash="b6ef9705b1e58b643edc23e7f81318ed" />
+      <String Key="Lemon" SourceHash="ff71ff25b2b0033b0d9f68830728b4cc" />
+      <String Key="Lychee" SourceHash="6cb01b90479b4f67db603e6f95911248" />
+      <String Key="Macadamia" SourceHash="e0cd5d96e2c6a5387adbb3ed7da14f33" />
+      <String Key="Nectarine" SourceHash="bdffbfe8dc3e79f9dc797a9e781dccbc" />
+      <String Key="Orange" SourceHash="909cea0c97058cfe2e3ea8d675cb08e1" />
+      <String Key="Peach" SourceHash="53841c6e42a6ce77b6f3b80133c9342c" />
+      <String Key="Peanut" SourceHash="dda4a873265dfd06df50a0d8a2949081" />
+      <String Key="Pine apple" SourceHash="85a6d5c49774d5d3b9944c8b04e10aaa" />
+      <String Key="Raspberry" SourceHash="ea52914c53e52ba23d40007fe3f42fbb" />
+      <String Key="Plum" SourceHash="93df2c41a9abe4a797371f5c761adbfe" />
+      <String Key="Strawberry" SourceHash="72db688c715c3501e560a799d945c69c" />
+      <String Key="Tomato" SourceHash="77bd79b3dca1f49815655b6f2df760ba" />
+      <String Key="Walnut" SourceHash="55fa1499c985a53b443a60f24ea598b3" />
+      <String Key="Watermelon" SourceHash="9aa80c57478c55b3bcb34290d248d364" />
+      <String Key="black" SourceHash="1ffd9e753c8054cc61456ac7fac1ac89" />
+      <String Key="darkGray" SourceHash="1ecc550729daa251c89f5c5a66153620" />
+      <String Key="lightGray" SourceHash="e5eb223cdbd00a16e0376aad779433a5" />
+      <String Key="white" SourceHash="d508fe45cecaf653904a0e774084bb5c" />
+      <String Key="gray" SourceHash="cda7a650c5856cf2f6738072447d7825" />
+      <String Key="red" SourceHash="bda9643ac6601722a28f238714274da4" />
+      <String Key="green" SourceHash="9f27410725ab8cc8854a2769c7a516b8" />
+      <String Key="blue" SourceHash="48d6215903dff56238e52e8891380c8f" />
+      <String Key="cyan" SourceHash="6411532ba4971f378391776a9db629d3" />
+      <String Key="yellow" SourceHash="d487dd0b55dfcacdd920ccbdaeafa351" />
+      <String Key="magenta" SourceHash="4c2a4a7078da0ac6733464eacfd00f86" />
+      <String Key="orange" SourceHash="fe01d67a002dfa0f3ac084298142eccd" />
+      <String Key="purple" SourceHash="bb7aedfa61007447dd6efaf9f37641e3" />
+      <String Key="brown" SourceHash="6ff47afa5dc7daa42cc705a03fca8a9b" />
+    </Strings>
+  </File>
+  <File RelativePathToSource="translations/Base.lproj/Main.storyboard">
+    <Strings>
+      <String Key="7LR-1L-UmO.text" SourceHash="a36ef47851e2b0fce36c1148d152749a" />
+      <String Key="NEv-5K-iX9.text" SourceHash="b021df6aac4654c454f46c77646e745f" />
+      <String Key="OBw-Zb-uPV.text" SourceHash="5d50889672f6f860d14f502de3de1957" />
+      <String Key="cMf-z2-Hi6.title" SourceHash="83915d1254927f41241e8630890bec6e" />
+      <String Key="iUA-CV-fzN.title" SourceHash="83915d1254927f41241e8630890bec6e" />
+    </Strings>
+  </File>
+</Snapshot>

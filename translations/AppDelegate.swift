@@ -11,6 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    override init() {
+        ElLocoTools.setupWithGuid("437A866F-0121-425D-A27E-B7CA58CBDB4E")
+        super.init()
+    }
+
+
     var window: UIWindow?
 
 

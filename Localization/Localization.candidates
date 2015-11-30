@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CandidateRepository Version="1.0">
+  <CodeFile FileName="translations/CollectionViewController.swift" LastWriteTimeUtc="2015-11-27T15:57:49.0000000Z" Md5="953A888541FAAE57FCCA9A49240FADE2">
+    <Candidates>
+      <Candidate FileLineNumber="11" TextStartOffset="31" OriginalTextLength="4" Status="Reviewed">
+        <CodeLine>private let reuseIdentifier = "cell"</CodeLine>
+        <Text>cell</Text>
+        <Context MaxSize="7">
+          <LineItem></LineItem>
+          <LineItem>import UIKit</LineItem>
+          <LineItem></LineItem>
+          <LineItem>private let reuseIdentifier = "cell"</LineItem>
+          <LineItem></LineItem>
+          <LineItem>enum CollectionType {</LineItem>
+          <LineItem>    case None</LineItem>
+        </Context>
+      </Candidate>
+    </Candidates>
+  </CodeFile>
+</CandidateRepository>
