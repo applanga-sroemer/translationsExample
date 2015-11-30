@@ -1,0 +1,10 @@
+PODS:
+  - Jargon (1.0.6)
+
+DEPENDENCIES:
+  - Jargon
+
+SPEC CHECKSUMS:
+  Jargon: 66b40ff4ae1f3455aa1b499607264fa022a75d5d
+
+COCOAPODS: 0.38.2

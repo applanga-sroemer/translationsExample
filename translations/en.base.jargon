@@ -1,0 +1,15 @@
+{
+"translations" : {
+"7LR-1L-UmO.text" : "Fruits",
+"NEv-5K-iX9.text" : "Label",
+"OBw-Zb-uPV.text" : "Colors",
+"cMf-z2-Hi6.title" : "Themes",
+"iUA-CV-fzN.title" : "Themes"
+},
+"ui" : {
+"Colors" : "OBw-Zb-uPV.text",
+"Fruits" : "7LR-1L-UmO.text",
+"Label" : "NEv-5K-iX9.text",
+"Themes" : "cMf-z2-Hi6.title"
+}
+}
