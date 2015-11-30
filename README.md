@@ -11,9 +11,14 @@ See branch `applanga` and read more [here](https://github.com/netbe/translations
 
 Website: www.applanga.com
 
+## El Loco
+
+See branch `el_loco` and read more [here](https://github.com/netbe/translationsExample/blob/el_loco/HowTo.md)
+
+Website: www.elloco.com
+
 # Pending
 
-* El Loco
 * Usejargon
 * OHT Mobile
 * No backend
