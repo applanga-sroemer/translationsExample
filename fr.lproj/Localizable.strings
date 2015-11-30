@@ -21,7 +21,7 @@
 "Pine apple" = "Ananas";
 "Raspberry" = "Framboise";
 "Plum" = "Prune";
-"Strawberry" = "fraise";
+"Strawberry" = "Fraise";
 "Tomato" = "Tomate";
 "Walnut" = "Noix";
 "Watermelon" = "Pastèque";
@@ -36,6 +36,6 @@
 "cyan" = "cyan";
 "yellow" = "jaune";
 "magenta" = "magenta";
-"orange" = "Orange";
-"purple" = "Violet";
+"orange" = "orange";
+"purple" = "violet";
 "brown" = "marron";

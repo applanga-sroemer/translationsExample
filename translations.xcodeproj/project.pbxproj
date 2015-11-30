@@ -16,12 +16,16 @@
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
 		0B5D4AEFB131BA24D413FDF3 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
+		2B344AC0A8DA31C6F9F6E7FE /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
+		2C494E46862350EE68EF4B29 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		5EB4490297CE0B21ED9B2260 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		8068490C9D50EF484B6C4B37 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		8B0741AD9128D7BED70D49F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C464796AEF72E576D929616 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8EB247889FB07D63F2DCF025 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5D465389B354F98CC2732A /* MapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9D5647DE93CA84112BC27282 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		9EAD4B6AAF0C6E14984CA3EA /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
+		A1604FE1BC0542B149F61110 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
+		BB214175985331202652BDD0 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		F5F6417186B96229104BE590 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2842CBB544C9B5DB8E2048 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F88941D6A5349DAF6F102AB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60DD4BD886C924B2CB2DDA38 /* Localizable.strings */; };
 		FF014A0B87ACEC54F36C07B4 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
@@ -63,6 +67,10 @@
 				9EAD4B6AAF0C6E14984CA3EA /* libElLocoTools.a in Frameworks */,
 				5EB4490297CE0B21ED9B2260 /* libElLocoTools.a in Frameworks */,
 				0B5D4AEFB131BA24D413FDF3 /* libElLocoTools.a in Frameworks */,
+				2B344AC0A8DA31C6F9F6E7FE /* libElLocoTools.a in Frameworks */,
+				BB214175985331202652BDD0 /* libElLocoTools.a in Frameworks */,
+				A1604FE1BC0542B149F61110 /* libElLocoTools.a in Frameworks */,
+				2C494E46862350EE68EF4B29 /* libElLocoTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -295,7 +304,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
