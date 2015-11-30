@@ -15,6 +15,7 @@
 		0109ABE31C086AF10035DBF5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */; };
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
+		0B5D4AEFB131BA24D413FDF3 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		5EB4490297CE0B21ED9B2260 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		8068490C9D50EF484B6C4B37 /* libElLocoTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD4D548FE0216F1420E19A /* libElLocoTools.a */; };
 		8B0741AD9128D7BED70D49F8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C464796AEF72E576D929616 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -36,13 +37,16 @@
 		0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
 		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		12194AE0A24C5C549E09A1A3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		17BD4D548FE0216F1420E19A /* libElLocoTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libElLocoTools.a; sourceTree = "<group>"; };
 		1B5D465389B354F98CC2732A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		225B43EDA3D2AE89476F5FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		752B42529341C36053E78EE8 /* ElLocoTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElLocoTools.h; sourceTree = "<group>"; };
 		7C2842CBB544C9B5DB8E2048 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99724545B1D92F54A11CEC8B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9C464796AEF72E576D929616 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A0684180A420C418640027B7 /* ElLocoToolsBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElLocoToolsBridging.h; sourceTree = "<group>"; };
+		D67C4793ABA67B0E1BCE7C0C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 				9D5647DE93CA84112BC27282 /* libElLocoTools.a in Frameworks */,
 				9EAD4B6AAF0C6E14984CA3EA /* libElLocoTools.a in Frameworks */,
 				5EB4490297CE0B21ED9B2260 /* libElLocoTools.a in Frameworks */,
+				0B5D4AEFB131BA24D413FDF3 /* libElLocoTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +164,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0109ABC21C0868DD0035DBF5 /* GUID = 0109ABC21C0868DD0035DBF5 [no filename, no location] */;
 			productRefGroup = 0109ABCC1C0868DD0035DBF5 /* Products */;
@@ -203,6 +209,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD31C0868DD0035DBF5 /* Base */,
+				12194AE0A24C5C549E09A1A3 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -211,6 +218,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD81C0868DD0035DBF5 /* Base */,
+				99724545B1D92F54A11CEC8B /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				225B43EDA3D2AE89476F5FCF /* en */,
+				D67C4793ABA67B0E1BCE7C0C /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
