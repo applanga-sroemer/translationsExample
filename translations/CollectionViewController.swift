@@ -25,56 +25,56 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
             switch collectionSourceType {
             case .Fruits:
                 selectedSource = fruits
-                title = "Fruits"
+                title = NSLocalizedString("Fruits",comment:"")
             case .Colors:
                 selectedSource = colors
-                title = "Colors"
+                title = NSLocalizedString("Colors",comment:"")
             case .None:
                 selectedSource = nil
             }
         }
     }
     
-    let fruits = ["Apple",
-        "Apricot",
-        "Avocado",
-        "Banana",
-        "Berry",
-        "Blueberry",
-        "Blackberry",
-        "Cranberry",
-        "Grapefruit",
-        "Grape",
-        "Kiwi",
-        "Lemon",
-        "Lychee",
-        "Macadamia",
-        "Nectarine",
-        "Orange",
-        "Peach",
-        "Peanut",
-        "Pine apple",
-        "Raspberry",
-        "Plum",
-        "Strawberry",
-        "Tomato",
-        "Walnut",
-        "Watermelon"]
+    let fruits = [NSLocalizedString("Apple",comment:""),
+        NSLocalizedString("Apricot",comment:""),
+        NSLocalizedString("Avocado",comment:""),
+        NSLocalizedString("Banana",comment:""),
+        NSLocalizedString("Berry",comment:""),
+        NSLocalizedString("Blueberry",comment:""),
+        NSLocalizedString("Blackberry",comment:""),
+        NSLocalizedString("Cranberry",comment:""),
+        NSLocalizedString("Grapefruit",comment:""),
+        NSLocalizedString("Grape",comment:""),
+        NSLocalizedString("Kiwi",comment:""),
+        NSLocalizedString("Lemon",comment:""),
+        NSLocalizedString("Lychee",comment:""),
+        NSLocalizedString("Macadamia",comment:""),
+        NSLocalizedString("Nectarine",comment:""),
+        NSLocalizedString("Orange",comment:""),
+        NSLocalizedString("Peach",comment:""),
+        NSLocalizedString("Peanut",comment:""),
+        NSLocalizedString("Pine apple",comment:""),
+        NSLocalizedString("Raspberry",comment:""),
+        NSLocalizedString("Plum",comment:""),
+        NSLocalizedString("Strawberry",comment:""),
+        NSLocalizedString("Tomato",comment:""),
+        NSLocalizedString("Walnut",comment:""),
+        NSLocalizedString("Watermelon",comment:"")]
 
-    let colors = ["black",
-        "darkGray",
-        "lightGray",
-        "white",
-        "gray",
-        "red",
-        "green",
-        "blue",
-        "cyan",
-        "yellow",
-        "magenta",
-        "orange",
-        "purple",
-        "brown"]
+    let colors = [NSLocalizedString("black",comment:""),
+        NSLocalizedString("darkGray",comment:""),
+        NSLocalizedString("lightGray",comment:""),
+        NSLocalizedString("white",comment:""),
+        NSLocalizedString("gray",comment:""),
+        NSLocalizedString("red",comment:""),
+        NSLocalizedString("green",comment:""),
+        NSLocalizedString("blue",comment:""),
+        NSLocalizedString("cyan",comment:""),
+        NSLocalizedString("yellow",comment:""),
+        NSLocalizedString("magenta",comment:""),
+        NSLocalizedString("orange",comment:""),
+        NSLocalizedString("purple",comment:""),
+        NSLocalizedString("brown",comment:"")]
 
     override func viewDidLoad() {
         super.viewDidLoad()

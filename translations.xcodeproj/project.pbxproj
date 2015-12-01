@@ -14,6 +14,7 @@
 		0109ABE31C086AF10035DBF5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */; };
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
+		01B9715B1C0E00BC0005C5B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B9715D1C0E00BC0005C5B4 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 		01B971571C0DFF4B0005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		01B971581C0DFF4B0005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01B9715C1C0E00BC0005C5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		0109ABCD1C0868DD0035DBF5 /* translations */ = {
 			isa = PBXGroup;
 			children = (
+				01B9715D1C0E00BC0005C5B4 /* Localizable.strings */,
 				0109ABCE1C0868DD0035DBF5 /* AppDelegate.swift */,
 				0109ABD21C0868DD0035DBF5 /* Main.storyboard */,
 				0109ABD51C0868DD0035DBF5 /* Assets.xcassets */,
@@ -114,6 +117,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0109ABC21C0868DD0035DBF5;
 			productRefGroup = 0109ABCC1C0868DD0035DBF5 /* Products */;
@@ -131,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0109ABD91C0868DD0035DBF5 /* LaunchScreen.storyboard in Resources */,
+				01B9715B1C0E00BC0005C5B4 /* Localizable.strings in Resources */,
 				0109ABD61C0868DD0035DBF5 /* Assets.xcassets in Resources */,
 				0109ABD41C0868DD0035DBF5 /* Main.storyboard in Resources */,
 			);
@@ -169,6 +174,14 @@
 				01B971581C0DFF4B0005C5B4 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01B9715D1C0E00BC0005C5B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B9715C1C0E00BC0005C5B4 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
