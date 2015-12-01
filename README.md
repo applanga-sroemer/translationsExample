@@ -17,9 +17,14 @@ See branch `el_loco` and read more [here](https://github.com/netbe/translationsE
 
 Website: www.elloco.com
 
+## Usejargon
+
+See branch `usejargon` and read more [here](https://github.com/netbe/translationsExample/blob/usejargon/HowTo.md)
+
+Website: www.usejargon.com
+
 # Pending
 
-* Usejargon
 * OHT Mobile
 * No backend
 * Babelish
