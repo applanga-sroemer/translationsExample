@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+type = STRINGS
+
+
+[translations-4.localizablestrings-97]
+file_filter = translations/<lang>.lproj/Localizable.strings
+source_lang = Base
+type = STRINGS
+
