@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  translations
+
+  Created by François Benaiteau on 01/12/15.
+  Copyright © 2015 Sinnerschrader Mobile. All rights reserved.
+*/
+
+"black" = "la couleur noire";
+"a complete new string" = "une nouvelle completement nouvelle";

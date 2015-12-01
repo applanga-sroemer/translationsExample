@@ -15,6 +15,7 @@
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
 		01B9714A1C0CA9FD0005C5B4 /* en.base.jargon in Resources */ = {isa = PBXBuildFile; fileRef = 01B971491C0CA9FD0005C5B4 /* en.base.jargon */; };
+		01B971511C0DE7F60005C5B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B971531C0DE7F60005C5B4 /* Localizable.strings */; };
 		1A4AB77D4CE34066 /* fr.jargon in Resources */ = {isa = PBXBuildFile; fileRef = 01680727A8CF4602 /* fr.jargon */; };
 		B1C01770F5A1DED319BC7698 /* libPods-translations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C25DBCE5E8999EDA93DE5798 /* libPods-translations.a */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,10 @@
 		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 		01B971491C0CA9FD0005C5B4 /* en.base.jargon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = en.base.jargon; sourceTree = "<group>"; };
 		01B9714B1C0CAA4F0005C5B4 /* translations-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "translations-Bridging-Header.h"; sourceTree = "<group>"; };
+		01B971521C0DE7F60005C5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01B971541C0DE8060005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		01B971551C0DE8060005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01B971561C0DE8060005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3F11545EA2820365E6B746C7 /* Pods-translations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-translations.release.xcconfig"; path = "Pods/Target Support Files/Pods-translations/Pods-translations.release.xcconfig"; sourceTree = "<group>"; };
 		66E8FCBC54161BC1ED3A63D7 /* Pods-translations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-translations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-translations/Pods-translations.debug.xcconfig"; sourceTree = "<group>"; };
 		C25DBCE5E8999EDA93DE5798 /* libPods-translations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-translations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +86,7 @@
 				01B971491C0CA9FD0005C5B4 /* en.base.jargon */,
 				01B9714B1C0CAA4F0005C5B4 /* translations-Bridging-Header.h */,
 				01680727A8CF4602 /* fr.jargon */,
+				01B971531C0DE7F60005C5B4 /* Localizable.strings */,
 			);
 			path = translations;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0109ABC21C0868DD0035DBF5;
 			productRefGroup = 0109ABCC1C0868DD0035DBF5 /* Products */;
@@ -163,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0109ABD91C0868DD0035DBF5 /* LaunchScreen.storyboard in Resources */,
+				01B971511C0DE7F60005C5B4 /* Localizable.strings in Resources */,
 				01B9714A1C0CA9FD0005C5B4 /* en.base.jargon in Resources */,
 				0109ABD61C0868DD0035DBF5 /* Assets.xcassets in Resources */,
 				0109ABD41C0868DD0035DBF5 /* Main.storyboard in Resources */,
@@ -224,6 +232,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD31C0868DD0035DBF5 /* Base */,
+				01B971541C0DE8060005C5B4 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -232,8 +241,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD81C0868DD0035DBF5 /* Base */,
+				01B971551C0DE8060005C5B4 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01B971531C0DE7F60005C5B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B971521C0DE7F60005C5B4 /* Base */,
+				01B971561C0DE8060005C5B4 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
