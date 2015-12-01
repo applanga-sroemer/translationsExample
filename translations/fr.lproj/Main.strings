@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Fruits"; ObjectID = "7LR-1L-UmO"; */
+"7LR-1L-UmO.text" = "Fruits";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NEv-5K-iX9"; */
+"NEv-5K-iX9.text" = "Label";
+
+/* Class = "UILabel"; text = "Colors"; ObjectID = "OBw-Zb-uPV"; */
+"OBw-Zb-uPV.text" = "Couleurs";
+
+/* Class = "UITableViewController"; title = "Themes"; ObjectID = "cMf-z2-Hi6"; */
+"cMf-z2-Hi6.title" = "Thèmes";
+
+/* Class = "UINavigationItem"; title = "Themes"; ObjectID = "iUA-CV-fzN"; */
+"iUA-CV-fzN.title" = "Thèmes";
