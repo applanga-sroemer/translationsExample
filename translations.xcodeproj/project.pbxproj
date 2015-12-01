@@ -30,6 +30,7 @@
 		01B971571C0DFF4B0005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		01B971581C0DFF4B0005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		01B9715C1C0E00BC0005C5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01B9715F1C0E15760005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +181,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				01B9715C1C0E00BC0005C5B4 /* Base */,
+				01B9715F1C0E15760005C5B4 /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
