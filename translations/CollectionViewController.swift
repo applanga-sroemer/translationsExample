@@ -60,22 +60,25 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
         "Tomato",
         "Walnut",
         "Watermelon"]
-
-    let colors = ["black",
-        "darkGray",
-        "lightGray",
-        "white",
-        "gray",
-        "red",
-        "green",
-        "blue",
-        "cyan",
-        "yellow",
-        "magenta",
-        "orange",
-        "purple",
-        "brown"]
-
+    
+    let colors = [
+        NSLocalizedString("black",comment: "black color comment"),
+        NSLocalizedString("darkGray",comment: ""),
+        NSLocalizedString("lightGray",comment: ""),
+        NSLocalizedString("white",comment: ""),
+        NSLocalizedString("gray",comment: ""),
+        NSLocalizedString("red",comment: ""),
+        NSLocalizedString("green",comment: ""),
+        NSLocalizedString("blue",comment: ""),
+        NSLocalizedString("cyan",comment: ""),
+        NSLocalizedString("yellow",comment: ""),
+        NSLocalizedString("magenta",comment: ""),
+        NSLocalizedString("orange",comment: ""),
+        NSLocalizedString("purple",comment: ""),
+        NSLocalizedString("brown", comment: ""),
+        NSLocalizedString("acidGreen", comment: "")
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
