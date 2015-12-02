@@ -26,6 +26,10 @@
 		0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesTableViewController.swift; sourceTree = "<group>"; };
 		0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		01B971601C0F03C00005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		01B971611C0F03C00005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01B971631C0F03F10005C5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		01B971651C0F03F50005C5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD31C0868DD0035DBF5 /* Base */,
+				01B971601C0F03C00005C5B4 /* fr */,
+				01B971631C0F03F10005C5B4 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0109ABD81C0868DD0035DBF5 /* Base */,
+				01B971611C0F03C00005C5B4 /* fr */,
+				01B971651C0F03F50005C5B4 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -1,0 +1,7 @@
+project_identifier: translations-ios
+api_key: 68a7d7c0c076d1c267d232f9d23722c1                         #can be found in your project settings page
+
+files:
+  -
+    source: 'translations/en.lproj/*.strings'                                    #source files filter
+    translation: 'translations/%two_letters_code%.lproj/%original_file_name%' #where translations live
