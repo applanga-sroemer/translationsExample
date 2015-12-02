@@ -23,10 +23,20 @@ See branch `usejargon` and read more [here](https://github.com/netbe/translation
 
 Website: www.usejargon.com
 
+## Transifex
+
+See branch `transifex` and read more [here](https://github.com/netbe/translationsExample/blob/transifex/HowTo.md)
+
+Website: www.transifex.com
+
+## No backend
+
+Without any services, just genstrings to extract localized content.
+
+See branch `nobackend` and read more [here](https://github.com/netbe/translationsExample/blob/nobackend/HowTo.md)
+
 # Pending
 
-* OHT Mobile
-* No backend
+* OHT Mobile (requires an account): similar to applanga or usejargon (SDK with auto updates)
 * Babelish
-* Transifex
 * other sevices... Pull requests are welcome!
