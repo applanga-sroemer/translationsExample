@@ -5,11 +5,10 @@
 "NEv-5K-iX9.text" = "Label";
 
 /* Class = "UILabel"; text = "Colors"; ObjectID = "OBw-Zb-uPV"; */
-"OBw-Zb-uPV.text" = "Colors";
+"OBw-Zb-uPV.text" = "Couleurs";
 
 /* Class = "UITableViewController"; title = "Themes"; ObjectID = "cMf-z2-Hi6"; */
-"cMf-z2-Hi6.title" = "Themes";
+"cMf-z2-Hi6.title" = "Thèmes";
 
 /* Class = "UINavigationItem"; title = "Themes"; ObjectID = "iUA-CV-fzN"; */
-"iUA-CV-fzN.title" = "Themes";
-
+"iUA-CV-fzN.title" = "Thèmes";
