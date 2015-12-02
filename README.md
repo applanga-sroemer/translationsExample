@@ -3,8 +3,6 @@ The goal of this project is to present the different solutions to translate an i
 
 The `master` branch contains a non-translated app, other branches present each a backend service 
 
-# Tested
-
 ## Applanga
 
 See branch `applanga` and read more [here](https://github.com/netbe/translationsExample/blob/applanga/HowTo.md)
