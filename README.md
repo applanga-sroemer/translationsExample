@@ -29,6 +29,12 @@ See branch `transifex` and read more [here](https://github.com/netbe/translation
 
 Website: www.transifex.com
 
+## Crowdin
+
+See branch `crowdin` and read more [here](https://github.com/netbe/translationsExample/blob/crowndin/HowTo.md)
+
+Website: www.crowndin.com
+
 ## No backend
 
 Without any services, just genstrings to extract localized content.
