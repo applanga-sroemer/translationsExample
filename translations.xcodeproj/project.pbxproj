@@ -14,6 +14,7 @@
 		0109ABE31C086AF10035DBF5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE21C086AF10035DBF5 /* CollectionViewController.swift */; };
 		0109ABE51C0872C60035DBF5 /* ThemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109ABE41C0872C60035DBF5 /* ThemesTableViewController.swift */; };
 		0176C68C1C088DCF00BDFBB2 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176C68B1C088DCF00BDFBB2 /* BasicCell.swift */; };
+		01B971681C0F06660005C5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B9716A1C0F06660005C5B4 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		01B971611C0F03C00005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		01B971631C0F03F10005C5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		01B971651C0F03F50005C5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		01B971691C0F06660005C5B4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		0109ABCD1C0868DD0035DBF5 /* translations */ = {
 			isa = PBXGroup;
 			children = (
+				01B9716A1C0F06660005C5B4 /* InfoPlist.strings */,
 				0109ABCE1C0868DD0035DBF5 /* AppDelegate.swift */,
 				0109ABD21C0868DD0035DBF5 /* Main.storyboard */,
 				0109ABD51C0868DD0035DBF5 /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0109ABD91C0868DD0035DBF5 /* LaunchScreen.storyboard in Resources */,
+				01B971681C0F06660005C5B4 /* InfoPlist.strings in Resources */,
 				0109ABD61C0868DD0035DBF5 /* Assets.xcassets in Resources */,
 				0109ABD41C0868DD0035DBF5 /* Main.storyboard in Resources */,
 			);
@@ -173,6 +177,14 @@
 				01B971651C0F03F50005C5B4 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01B9716A1C0F06660005C5B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B971691C0F06660005C5B4 /* fr */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
