@@ -31,9 +31,9 @@ Website: www.transifex.com
 
 ## Crowdin
 
-See branch `crowdin` and read more [here](https://github.com/netbe/translationsExample/blob/crowndin/HowTo.md)
+See branch `crowdin` and read more [here](https://github.com/netbe/translationsExample/blob/crowdin/HowTo.md)
 
-Website: www.crowndin.com
+Website: https://crowdin.com/
 
 ## No backend
 
